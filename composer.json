@@ -37,9 +37,13 @@
             "Basemkhirat\\Elasticsearch\\Tests\\": "tests/"
         }
     },
+    "repositories": [{
+            "type": "vcs",
+            "url": "http://github.com/Breek/elasticsearch-php-55-php82"
+        }],
     "require": {
-        "php": ">=5.6.6",
-        "elasticsearch/elasticsearch": "^5.0|^6.0",
+        "php": ">=8.2",
+        "elasticsearch/elasticsearch": "dev-55_port_php82",
         "illuminate/pagination": "*",
         "illuminate/support": "*",
         "symfony/var-dumper": "*",
